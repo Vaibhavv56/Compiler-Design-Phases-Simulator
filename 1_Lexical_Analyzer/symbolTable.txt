@@ -1,0 +1,47 @@
+
+ Table:
+ 		Lexeme			Token				Attribute Value			Line Number
+
+                void                       Keyword                             0                                  1
+                main                     Procedure                             1                                  1
+                   {                    Punctuator                             2                                  2
+                 int                       Keyword                             3                                  3
+                   a                    Identifier                             4                                  3
+                   =                 Assignment Op                             5                                  3
+                   1              Integer Constant                             6                                  3
+                   ,                    Punctuator                             7                                  3
+                   b                    Identifier                             8                                  3
+                   =                 Assignment Op                             5                                  3
+                   2              Integer Constant                             9                                  3
+                   ,                    Punctuator                             7                                  3
+                   c                    Identifier                            10                                  3
+                   =                 Assignment Op                             5                                  3
+                  10              Integer Constant                            11                                  3
+                   ;                    Punctuator                            12                                  3
+                  if                       Keyword                            13                                  5
+                   (                    Punctuator                            14                                  5
+                   a                    Identifier                             4                                  5
+                   >                 Relational Op                            15                                  5
+                   b                    Identifier                             8                                  5
+                   )                    Punctuator                            16                                  5
+                   {                    Punctuator                             2                                  6
+              printf                    Identifier                            17                                  7
+                   (                    Punctuator                            14                                  7
+       "\nInside if"                String Literal                            18                                  7
+                   )                    Punctuator                            16                                  7
+                   ;                    Punctuator                            12                                  7
+                   }                    Punctuator                            19                                  8
+                else                       Keyword                            20                                  9
+                   {                    Punctuator                             2                                 10
+              printf                    Identifier                            17                                 11
+                   (                    Punctuator                            14                                 11
+     "\nInside else"                String Literal                            21                                 11
+                   )                    Punctuator                            16                                 11
+                   ;                    Punctuator                            12                                 11
+                   }                    Punctuator                            19                                 12
+                   }                    Punctuator                            19                                 14
+
+
+MultiLineComment (0 lines):D
+
+SingleLineComment :

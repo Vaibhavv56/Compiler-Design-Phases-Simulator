@@ -1,0 +1,12 @@
+i = 0
+a = 0
+i = 0
+L0:
+t0 = True 
+ifFalse t0 goto L1
+a = t0
+t1 = 1 
+i = t1
+goto L0
+L1:
+i = t1
